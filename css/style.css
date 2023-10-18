@@ -1,0 +1,164 @@
+/* All CSS File Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.label-color{
+    color: rgb(217, 222, 227) !important;
+    
+}
+/* All CSS File End */
+
+input{
+    display: none;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: #2b323c;
+}
+h1{
+    color: #ffef00;
+    font-size: 36px;
+    text-align: center;
+    user-select: none;
+}
+
+.mennu_part{
+    height: 60px;
+    width: 90%;
+    background-color: rgb(96, 89, 89);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+label{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    width: 18%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+label:hover{
+    color: black;
+}
+
+.SSC_Batch{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+
+.vF{
+    position: relative;
+    height: 425px;
+    cursor: pointer;
+}
+
+.vF img{
+    width: 100%;
+    height: 100%;
+}
+
+.boys_photo{
+    position: relative;
+    height: 425px;
+    cursor: pointer;
+}
+.boys_photo img{
+    height: 100%;
+    width: 100%;
+}
+
+.B_A_G_Photo{
+    position: relative;
+    height: 425px;
+    cursor: pointer;
+}
+.B_A_G_Photo img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.girls{
+    position: relative;
+    height: 425px;
+    cursor: pointer;
+}
+
+.girls img{
+    height: 100%;
+    width: 100%;
+}
+
+#check1:checked ~ .container .SSC_Batch .pic{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check2:checked ~ .container .SSC_Batch .vF{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check2:checked ~ .container .SSC_Batch .boys_photo,
+#check2:checked ~ .container .SSC_Batch .girls{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}
+
+#check3:checked ~ .container .SSC_Batch .boys_photo{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check3:checked ~ .container .SSC_Batch .vF,
+#check3:checked ~ .container .SSC_Batch .girls{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}
+
+#check4:checked ~ .container .SSC_Batch .girls{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check4:checked ~ .container .SSC_Batch .vF,
+#check4:checked ~ .container .SSC_Batch .boys_photo{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}
+
+#check5:checked ~ .container .SSC_Batch .B_A_G_Photo{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check5:checked ~ .container .SSC_Batch .vF,
+#check5:checked ~ .container .SSC_Batch .girls{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}

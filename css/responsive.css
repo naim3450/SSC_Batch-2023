@@ -1,0 +1,244 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mennu_part {
+        height: 70px;
+        width: 100%;
+        background-color: rgb(96, 89, 89);
+        margin: 0 auto;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    label {
+        color: #fff;
+        width: 20%;
+        font-size: 20px;
+        font-weight: 600;
+        height: 100%;
+        line-height: 70px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+    .SSC_Batch {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .vF{
+        height: 300px;
+    }
+    .boys_photo{
+        height: 300px;
+    }
+    .B_A_G_Photo{
+        height: 300px
+    }
+    .girls{
+        height: 350px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mennu_part {
+        height: 70px;
+        width: 100%;
+        background-color: rgb(96, 89, 89);
+        margin: 0 auto;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    label {
+        color: #fff;
+        width: 20%;
+        font-size: 20px;
+        font-weight: 600;
+        height: 100%;
+        line-height: 70px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+    .SSC_Batch {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .vF{
+        height: 300px;
+    }
+    .boys_photo{
+        height: 300px;
+    }
+    .B_A_G_Photo{
+        height: 300px
+    }
+    .girls{
+        height: 350px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mennu_part {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(96, 89, 89);
+        margin: 0 auto;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    label {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        height: 100%;
+        width: 20%;
+        line-height: 60px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+    .SSC_Batch {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .vF{
+        height: 250px;
+    }
+    .boys_photo{
+        height: 250px;
+    }
+    .B_A_G_Photo{
+        height: 300px
+    }
+    .girls{
+        height: 300px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mennu_part {
+        height: 60px;
+        width: 100%;
+        background-color: rgb(96, 89, 89);
+        margin: 0 auto;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    label {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        width: 20%;
+        height: 100%;
+        line-height: 60px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+    .SSC_Batch {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .vF{
+        height: 150px;
+    }
+    .boys_photo{
+        height: 150px;
+    }
+    .B_A_G_Photo{
+        height: 150px
+    }
+    .girls{
+        height: 150px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    h1 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .mennu_part {
+        height: 40px;
+        width: 100%;
+        background-color: rgb(96, 89, 89);
+        margin: 0 auto;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    label {
+        color: #fff;
+        font-size: 8px;
+        font-weight: 600;
+        height: 100%;
+        width: 20%;
+        line-height: 40px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+    .SSC_Batch {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+    }
+    .vF{
+        height: 130px;
+    }
+    .boys_photo{
+        height: 130px;
+    }
+    .B_A_G_Photo{
+        height: 130px
+    }
+    .girls{
+        height: 130px;
+    }
+}
